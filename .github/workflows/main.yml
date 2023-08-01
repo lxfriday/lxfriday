@@ -9,6 +9,7 @@ on:
   workflow_dispatch:
   
   # run on every push on the master branch
+  # GitHub的主分支有两种master和main，根据自己的分支名称修改branches的值
   push:
     branches:
     - master
